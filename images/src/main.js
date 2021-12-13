@@ -5,10 +5,10 @@ import App from './App';
 import store from './store';
 import AuthHandler from './components/AuthHandler';
 
-Vue.user(VueRouter);
+ Vue.use(VueRouter);
 
 const router = new VueRouter({
-    mode: 'history',
+    mode:'history',
     routes: [{  path:'/oauth2/callback',  component: AuthHandler}]
 });
 

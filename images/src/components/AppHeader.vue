@@ -1,7 +1,7 @@
 <template>
     <div class="ui secondary pointing menu">
         <a href="/" class="active item">
-        Image Header
+            Image Header
         </a>
 
         <div class="right menu">
