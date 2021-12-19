@@ -11,6 +11,7 @@ export default {
      methods: mapActions(['finalizeLogin']),
     created(){
         this.finalizeLogin(window.location.hash);
+        console.log(this.finalizeLogin(window.location.hash));
     }
 }
 </script>
